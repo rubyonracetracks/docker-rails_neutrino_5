@@ -9,7 +9,6 @@ script:
   - bash build.sh
 
 after_success:
-  - source variables.sh
   - if [[ $TRAVIS_BRANCH == "master" ]]; then
       docker push rubyonracetracks/rails_neutrino_5
     fi
