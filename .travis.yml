@@ -10,5 +10,5 @@ script:
 
 after_success:
   - if [[ "$TRAVIS_BRANCH" == "master" ]]; then
-      docker push rubyonracetracks/rails_neutrino_5
+      docker push rubyonracetracks/rails_neutrino_5;
     fi
