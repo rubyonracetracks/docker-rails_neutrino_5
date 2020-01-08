@@ -6,7 +6,7 @@ RUN ruby -v && cat /etc/os-release && \
     apt-get install -y nodejs bash && \
     adduser --disabled-password --gecos '' winner && \
     mkdir /home/winner/neutrino && \
-    chown -R winner:winner /home/winner/neutrino
+    chown -R 1000:1000 /home/winner/neutrino
 
 USER winner
 
