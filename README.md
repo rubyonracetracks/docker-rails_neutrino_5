@@ -2,7 +2,7 @@
 
 # Docker For Rails Neutrino 5
 
-Welcome to Docker for Rails Neutrino 5!  The purpose of this repository is to build a custom Docker image specificlly for [Rails Neutrino 5](https://github.com/rubyonracetracks/rails_neutrino_5).
+Welcome to Docker for Rails Neutrino 5!  The purpose of this repository is to build the custom [rubyonracetracks/rails_neutrino_5](https://hub.docker.com/r/rubyonracetracks/rails_neutrino_5) Docker image specifically for [Rails Neutrino 5](https://github.com/rubyonracetracks/rails_neutrino_5).
 
 ## What changes are made to the basic Docker image?
 * All Debian packages are updated.
